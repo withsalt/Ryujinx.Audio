@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Audio.UserInterface", "Ryujinx.Audio.Imp\Ryujinx.Audio.UserInterface.csproj", "{0D27649F-73E0-4644-B7F8-26F6D8B07883}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Memory", "Ryujinx.Memory\Ryujinx.Memory.csproj", "{C15846D8-552E-4246-9278-A819920EF6CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Audio", "Ryujinx.Audio\Ryujinx.Audio.csproj", "{8452EECE-7D6B-49B2-8FFD-BE222AD1E67B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Audio.Backends.OpenAL", "Ryujinx.Audio.Backends.OpenAL\Ryujinx.Audio.Backends.OpenAL.csproj", "{614C517A-62D4-41E8-8B7D-76C44A0E05C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Audio.Backends.SDL2", "Ryujinx.Audio.Backends.SDL2\Ryujinx.Audio.Backends.SDL2.csproj", "{79AE0A99-CEF8-4E67-9ED1-C360FF0C4831}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Audio.Backends.SoundIo", "Ryujinx.Audio.Backends.SoundIo\Ryujinx.Audio.Backends.SoundIo.csproj", "{B83633DA-6DBD-4C84-AD56-A0C96ADDC570}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.SDL2.Common", "Ryujinx.SDL2.Common\Ryujinx.SDL2.Common.csproj", "{D3593472-0430-45B5-AEB9-72BB0A7973F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Common", "Ryujinx.Common\Ryujinx.Common.csproj", "{9C5FCDFF-0554-4299-97E9-90C9C6113F98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Cpu", "Ryujinx.Cpu\Ryujinx.Cpu.csproj", "{6909C174-916D-4D93-8219-494988A48EDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.Horizon.Common", "Ryujinx.Horizon.Common\Ryujinx.Horizon.Common.csproj", "{0DC57634-C86E-44B0-922A-E0EF4B453DB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ryujinx.HLE", "Ryujinx.HLE\Ryujinx.HLE.csproj", "{65D677BA-B7B0-43F4-805B-E0C79DDFD439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ryujinx.Audio.UserInterface.Demo", "Ryujinx.Audio.UserInterface.Demo\Ryujinx.Audio.UserInterface.Demo.csproj", "{3F302AC8-39A3-48E5-9E73-DBB3EC23E477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D27649F-73E0-4644-B7F8-26F6D8B07883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D27649F-73E0-4644-B7F8-26F6D8B07883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D27649F-73E0-4644-B7F8-26F6D8B07883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D27649F-73E0-4644-B7F8-26F6D8B07883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15846D8-552E-4246-9278-A819920EF6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15846D8-552E-4246-9278-A819920EF6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15846D8-552E-4246-9278-A819920EF6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15846D8-552E-4246-9278-A819920EF6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8452EECE-7D6B-49B2-8FFD-BE222AD1E67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8452EECE-7D6B-49B2-8FFD-BE222AD1E67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8452EECE-7D6B-49B2-8FFD-BE222AD1E67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8452EECE-7D6B-49B2-8FFD-BE222AD1E67B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614C517A-62D4-41E8-8B7D-76C44A0E05C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614C517A-62D4-41E8-8B7D-76C44A0E05C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614C517A-62D4-41E8-8B7D-76C44A0E05C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614C517A-62D4-41E8-8B7D-76C44A0E05C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AE0A99-CEF8-4E67-9ED1-C360FF0C4831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AE0A99-CEF8-4E67-9ED1-C360FF0C4831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AE0A99-CEF8-4E67-9ED1-C360FF0C4831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AE0A99-CEF8-4E67-9ED1-C360FF0C4831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B83633DA-6DBD-4C84-AD56-A0C96ADDC570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B83633DA-6DBD-4C84-AD56-A0C96ADDC570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B83633DA-6DBD-4C84-AD56-A0C96ADDC570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B83633DA-6DBD-4C84-AD56-A0C96ADDC570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3593472-0430-45B5-AEB9-72BB0A7973F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3593472-0430-45B5-AEB9-72BB0A7973F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3593472-0430-45B5-AEB9-72BB0A7973F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3593472-0430-45B5-AEB9-72BB0A7973F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C5FCDFF-0554-4299-97E9-90C9C6113F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C5FCDFF-0554-4299-97E9-90C9C6113F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C5FCDFF-0554-4299-97E9-90C9C6113F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C5FCDFF-0554-4299-97E9-90C9C6113F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6909C174-916D-4D93-8219-494988A48EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6909C174-916D-4D93-8219-494988A48EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6909C174-916D-4D93-8219-494988A48EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6909C174-916D-4D93-8219-494988A48EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC57634-C86E-44B0-922A-E0EF4B453DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC57634-C86E-44B0-922A-E0EF4B453DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC57634-C86E-44B0-922A-E0EF4B453DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC57634-C86E-44B0-922A-E0EF4B453DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D677BA-B7B0-43F4-805B-E0C79DDFD439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D677BA-B7B0-43F4-805B-E0C79DDFD439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D677BA-B7B0-43F4-805B-E0C79DDFD439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D677BA-B7B0-43F4-805B-E0C79DDFD439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F302AC8-39A3-48E5-9E73-DBB3EC23E477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F302AC8-39A3-48E5-9E73-DBB3EC23E477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F302AC8-39A3-48E5-9E73-DBB3EC23E477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F302AC8-39A3-48E5-9E73-DBB3EC23E477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E658B8E1-6D02-440E-98C7-183CE797A801}
+	EndGlobalSection
+EndGlobal
