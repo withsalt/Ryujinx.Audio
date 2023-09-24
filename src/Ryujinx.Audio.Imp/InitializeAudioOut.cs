@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using Ryujinx.Audio.Backends.CompatLayer;
 using Ryujinx.Audio.Backends.Dummy;
 using Ryujinx.Audio.Backends.OpenAL;
-using Ryujinx.Audio.Backends.SDL2;
 using Ryujinx.Audio.Backends.SoundIo;
 using Ryujinx.Audio.Common;
 using Ryujinx.Audio.Input;
@@ -55,7 +54,6 @@ namespace Ryujinx.Audio.UserInterface
 
             var availableBackends = new List<AudioBackend>
             {
-                AudioBackend.SDL2,
                 AudioBackend.SoundIo,
                 AudioBackend.OpenAl,
                 AudioBackend.Dummy,
@@ -69,7 +67,6 @@ namespace Ryujinx.Audio.UserInterface
 
                 deviceDriver = currentBackend switch
                 {
-                    AudioBackend.SDL2 => InitializeAudioBackendIfSupported<SDL2HardwareDeviceDriver>(AudioBackend.SDL2, nextBackend),
                     AudioBackend.SoundIo => InitializeAudioBackendIfSupported<SoundIoHardwareDeviceDriver>(AudioBackend.SoundIo, nextBackend),
                     AudioBackend.OpenAl => InitializeAudioBackendIfSupported<OpenALHardwareDeviceDriver>(AudioBackend.OpenAl, nextBackend),
                     _ => new DummyHardwareDeviceDriver(),
